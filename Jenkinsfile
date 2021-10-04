@@ -18,6 +18,14 @@ pipeline {
             }
         }
         
+        stage("doing nothing") {
+        
+            steps {
+                echo 'Doing nothing...'
+            }
+        }
+        
+        
         stage("deploy") {
         
             steps {
